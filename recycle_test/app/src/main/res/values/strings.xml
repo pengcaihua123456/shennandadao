@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sroll_to_read_info">继续滑动，查看更多资讯</string>
+    <string name="to_read_info">即将打开资讯内容</string>
+    <string name="app_name">即将</string>
+</resources>

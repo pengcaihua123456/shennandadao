@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="top.daxianwill.greendaodemo.MainActivity">
+    <Button
+        android:id="@+id/insert"
+        android:onClick="insert"
+        android:text="@string/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/delete"
+        android:onClick="delete"
+        android:layout_toRightOf="@id/insert"
+        android:text="@string/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/insert"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/update"
+        android:onClick="update"
+        android:layout_toRightOf="@id/delete"
+        android:text="@string/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/delete"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/load_all"
+        android:onClick="loadAll"
+        android:layout_toRightOf="@id/update"
+        android:text="@string/load_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/update"
+        tools:ignore="OnClick" />
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_below="@id/insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</RelativeLayout>

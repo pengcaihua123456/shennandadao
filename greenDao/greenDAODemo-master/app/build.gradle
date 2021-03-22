@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+//添加greendao相关的plugin
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "top.daxianwill.greendaodemo"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    greendao{
+
+        //指定数据库schema版本号，迁移等操作会用到;
+        schemaVersion 4
+        //dao的包名，包名默认是entity所在的包；
+        daoPackage 'com.greendao.gen'
+        //生成数据库文件的目录;
+        targetGenDir 'src/main/java'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+
+    //添加greendao相关依赖
+    implementation 'org.greenrobot:greendao:3.2.2'
+}

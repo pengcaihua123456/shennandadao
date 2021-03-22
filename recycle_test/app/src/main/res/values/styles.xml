@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActivityAnimationRightToLeft" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_stay_300</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_right_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_stay_300</item>
+    </style>
+
+    <style name="translucent_activity" parent="@android:style/Theme.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeAltas" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="ActivityAnimationTopToBottom" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_top_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_stay_500</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_top_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_stay_500</item>
+    </style>
+
+    <style name="themeRightToLeftActivityForCamera" mce_bogus="1">
+        <item name="android:windowAnimationStyle">@style/ActivityAnimationRightToLeft</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="comment_activity" parent="@android:style/Theme.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ActivityAnimationDirectInOut" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/act_direct_in</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@anim/act_direct_out</item>
+    </style>
+
+    <style name="ActivityAnimationForDirectInOut" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_stay_300</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+    </style>
+
+    <style name="ActivityAnimationFromCentrePoint" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_from_centre_point</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_from_centre_point</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_to_centre_point</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_to_centre_point</item>
+    </style>
+
+    <style name="themeActivityFromCentrePoint" mce_bogus="1" parent="@android:style/Theme.Translucent">
+        <item name="android:windowAnimationStyle">@style/ActivityAnimationFromCentrePoint</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="themeActivityDirectInOut" mce_bogus="1">
+        <item name="android:windowAnimationStyle">@style/ActivityAnimationDirectInOut</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="themeActivityForDirectInOut" mce_bogus="1">
+        <item name="android:windowAnimationStyle">@style/ActivityAnimationForDirectInOut</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="themeTopBottomActivity" mce_bogus="1">
+        <item name="android:windowAnimationStyle">@style/ActivityAnimationTopToBottom</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="themeRightToLeftActivity" mce_bogus="1">
+        <item name="android:windowAnimationStyle">@style/ActivityAnimationRightToLeft</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

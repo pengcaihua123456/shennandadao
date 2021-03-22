@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_marginlayout_layout"
+    android:orientation="vertical">
+
+    <glidetest.yuedong.com.myapplication.ScrollerLayout
+        android:id="@+id/activity_marginlayout_scrollerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </glidetest.yuedong.com.myapplication.ScrollerLayout>
+
+
+</RelativeLayout>
+

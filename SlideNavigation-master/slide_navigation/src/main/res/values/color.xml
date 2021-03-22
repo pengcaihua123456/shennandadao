@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 首页title背景色 -->
+    <color name="home_text_hong">#de3031</color>
+    <!-- 首页title字体点击颜色 -->
+    <color name="home_text_hui">#999999</color>
+    <color name="view_background">#dadada</color>
+</resources>

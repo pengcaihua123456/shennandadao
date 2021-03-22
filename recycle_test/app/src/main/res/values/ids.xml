@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="banner_index" type="id" />
+    <item name="view_wrap" type="id" />
+    <item name="root_view" type="id" />
+    <item name="recycler_view_header" type="id" />
+    <item name="cb_item_tag" type="id"></item>
+    <item name="mul_process_preferences_auth" type="string"></item>
+    <item name="ex_header" type="id" />
+</resources>

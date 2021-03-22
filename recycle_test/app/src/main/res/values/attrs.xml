@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwitchButton">
+        <attr name="frameDrawable" format="reference|color" />
+        <attr name="stateDrawable" format="reference|color" />
+        <attr name="stateMaskDrawable" format="reference|color" />
+        <attr name="sliderDrawable" format="reference|color" />
+        <attr name="withTextInterval" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="FixedWHRatio">
+        <attr name="ratio" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="DashLine">
+        <attr name="dash_line_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="NEImageView">
+        <attr name="res_image" format="reference" />
+        <attr name="cache_res_image" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="Circle">
+        <attr name="android:color" />
+    </declare-styleable>
+    <declare-styleable name="ConvenientBanner">
+        <attr name="canLoop" format="boolean" />
+    </declare-styleable>
+
+    <!-- refreshLayout 属性-->
+    <declare-styleable name="TwinklingRefreshLayout">
+        <attr name="tr_max_head_height" format="dimension" />
+        <attr name="tr_head_height" format="dimension" />
+        <attr name="tr_max_bottom_height" format="dimension" />
+        <attr name="tr_bottom_height" format="dimension" />
+        <attr name="tr_overscroll_height" format="dimension" />
+        <attr name="tr_enable_refresh" format="boolean" />
+        <attr name="tr_enable_loadmore" format="boolean" />
+        <attr name="tr_pureScrollMode_on" format="boolean" />
+        <attr name="tr_overscroll_top_show" format="boolean" />
+        <attr name="tr_overscroll_bottom_show" format="boolean" />
+        <attr name="tr_enable_overscroll" format="boolean" />
+        <attr name="tr_headerView" format="dimension" />
+        <attr name="tr_bottomView" format="dimension" />
+        <attr name="tr_floatRefresh" format="boolean" />
+        <attr name="tr_autoLoadMore" format="boolean" />
+        <attr name="tr_enable_keepIView" format="boolean" />
+        <attr name="tr_showRefreshingWhenOverScroll" format="boolean" />
+        <attr name="tr_showLoadingWhenOverScroll" format="boolean" />
+        <attr name="tr_header_type" format="integer"/>
+        <attr name="tr_footer_type" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShadowRound">
+        <attr name="shadow_color" format="color" />
+        <attr name="background_color" format="color|reference"/>
+        <attr name="progress_background_color" format="color|reference"/>
+        <attr name="shadow_radius" format="dimension" />
+        <attr name="round_radius" format="dimension" />
+    </declare-styleable>
+
+</resources>

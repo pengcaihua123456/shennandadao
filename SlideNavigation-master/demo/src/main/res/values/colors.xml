@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--浅蓝色-->
+    <color name="wathet">#1AA0ED</color>
+    <!--字体灰色#666颜色-->
+    <color name="text_666_color">#666</color>
+</resources>

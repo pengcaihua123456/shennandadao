@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 顶部位置导航标题栏 -->
+
+    <com.liqi.slidenavigation.PagerSlidingTabStrip
+        android:id="@+id/tabstrip_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:allowWidthFull="true"/>
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/view_background" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <View
+        android:id="@+id/bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/view_background" />
+
+    <!-- 底部位置导航标题栏 -->
+    <com.liqi.slidenavigation.PagerSlidingTabStrip
+        android:id="@+id/tabstrip_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:allowWidthFull="true"/>
+</LinearLayout>

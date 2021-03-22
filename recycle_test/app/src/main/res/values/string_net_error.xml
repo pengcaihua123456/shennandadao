@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="net_error_net_error">net error</string>
+    <string name="net_error_net_un_connect">net not available</string>
+    <string name="net_error_copy_file_fail">move file fail</string>
+    <string name="net_error_data_format_error">data format error</string>
+    <string name="net_error_bad_response">bad response</string>
+    <string name="net_error_break_pipe_line">break pipe line</string>
+    <string name="net_error_file_invalid">File Security verification failed</string>
+    <string name="commmon_sloga">红包是激励，坚持运动是目标</string>
+</resources>
